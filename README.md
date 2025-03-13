@@ -1,3 +1,5 @@
+## English
+<a id="english"></a>
 # ✨ Lucida – Experimental Programming Language  
 
 🌟 **Lucida** is my own programming language created to learn the principles of interpreters and compilers. In the future, it is planned to add support for graphics, window interfaces, and advanced features.  
@@ -10,21 +12,10 @@
 
 ---
 
-## English
-<a id="english"></a>
-# ✨ Lucida – Experimental Programming Language  
-
-🌟 **Lucida** is my own programming language created to learn the principles of interpreters and compilers. In the future, it is planned to add support for graphics, window interfaces, and advanced features.
 
 ---
 
-## Deutsch
-<a id="german"></a>
-# ✨ Lucida – Experimentelle Programmiersprache  
 
-🌟 **Lucida** ist meine eigene Programmiersprache, die entwickelt wurde, um die Prinzipien von Interpretern und Compilern zu lernen. In Zukunft ist geplant, die Unterstützung für Grafik, Fensteroberflächen und erweiterte Funktionen hinzuzufügen.
-
----
 
 ## 🚀 Features  
 ✅ **Basic Syntax** – variables, conditions, loops  
@@ -61,4 +52,13 @@ Example `config.json`:
     "library_path": "C:/Users/YOUR_USER_NAME/Documents/Lucida/libs"
 }
 ```
+---
+
+## Deutsch
+<a id="german"></a>
+# ✨ Lucida – Experimentelle Programmiersprache  
+
+🌟 **Lucida** ist meine eigene Programmiersprache, die entwickelt wurde, um die Prinzipien von Interpretern und Compilern zu lernen. In Zukunft ist geplant, die Unterstützung für Grafik, Fensteroberflächen und erweiterte Funktionen hinzuzufügen.
+
+---
 
