@@ -9,6 +9,7 @@
 ## 🌍 Translations  
 - 🇬🇧 [English](#english)
 - 🇩🇪 [Deutsch](#german)
+- 🇷🇺 [Русский](#russian)
 
 ---
 
@@ -100,7 +101,70 @@ Beispiel `config.json`:
     "autoload_last_project": true,
     "library_path": "C:/Users/DEIN_BENUTZERNAME/Documents/Lucida/libs"
 }
-
+```
 
 ---
+
+## Русский
+<a id="russian"></a>
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucida</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .language-buttons { margin-bottom: 20px; }
+        .language-buttons button { padding: 10px; margin-right: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="language-buttons">
+        <button onclick="changeLanguage('en')">🇬🇧 English</button>
+        <button onclick="changeLanguage('de')">🇩🇪 Deutsch</button>
+    </div>
+
+    <div id="content"></div>
+
+    <script>
+        const content = {
+            en: `
+                <h1>✨ Lucida – Experimental Programming Language</h1>
+                <p>🌟 <strong>Lucida</strong> is my own programming language created to learn the principles of interpreters and compilers. In the future, it is planned to add support for graphics, window interfaces, and advanced features.</p>
+            `,
+            de: `
+                <h1>✨ Lucida – Experimentelle Programmiersprache</h1>
+                <p>🌟 <strong>Lucida</strong> ist meine eigene Programmiersprache, die entwickelt wurde, um die Prinzipien von Interpretern und Compilern zu lernen. In Zukunft ist geplant, die Unterstützung für Grafik, Fensteroberflächen und erweiterte Funktionen hinzuzufügen.</p>
+            `
+        };
+
+        function changeLanguage(lang) {
+            document.getElementById('content').innerHTML = content[lang];
+        }
+
+        // Set default language
+        changeLanguage('en');
+    </script>
+
+</body>
+</html>
+
 
