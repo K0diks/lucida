@@ -5,8 +5,24 @@
 ---
 
 ## 🌍 Translations  
-- 🇬🇧 [English](#)
-- 🇩🇪 [Deutsch](#)
+- 🇬🇧 [English](#english)
+- 🇩🇪 [Deutsch](#german)
+
+---
+
+## English
+<a id="english"></a>
+# ✨ Lucida – Experimental Programming Language  
+
+🌟 **Lucida** is my own programming language created to learn the principles of interpreters and compilers. In the future, it is planned to add support for graphics, window interfaces, and advanced features.
+
+---
+
+## Deutsch
+<a id="german"></a>
+# ✨ Lucida – Experimentelle Programmiersprache  
+
+🌟 **Lucida** ist meine eigene Programmiersprache, die entwickelt wurde, um die Prinzipien von Interpretern und Compilern zu lernen. In Zukunft ist geplant, die Unterstützung für Grafik, Fensteroberflächen und erweiterte Funktionen hinzuzufügen.
 
 ---
 
