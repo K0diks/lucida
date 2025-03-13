@@ -64,6 +64,7 @@ Example `config.json`:
 ## 🌍 Übersetzungen
 - 🇬🇧 [English](#english)
 - 🇩🇪 [Deutsch](#german)
+- 🇷🇺 [Русский](#russian)
 
 ---
 
