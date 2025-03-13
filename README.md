@@ -46,6 +46,7 @@ pgsql
     "autoload_last_project": true,
     "library_path": "C:/Users/ТВОЙ_ПОЛЬЗОВАТЕЛЬ/Documents/Lucida/libs"
 }
+```json
 
 🔹 Возможные параметры:
        Параметр       |        Описание                       |    Возможные значения
