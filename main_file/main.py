@@ -2,6 +2,7 @@ import os
 import datetime
 from save import load_config, save_config, save_data, load_data
 from start import start
+import app
 
 username = os.getlogin()
 folder_path = f"C:\\Users\\{username}\\Documents\\LucidaCode\\config"
@@ -75,4 +76,4 @@ def main():
         else:
             print("Неизвестная команда. Введите code help() для списка команд.")
 
-main()
+app.create_window()
