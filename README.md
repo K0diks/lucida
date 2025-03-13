@@ -58,7 +58,49 @@ Example `config.json`:
 <a id="german"></a>
 # ✨ Lucida – Experimentelle Programmiersprache  
 
-🌟 **Lucida** ist meine eigene Programmiersprache, die entwickelt wurde, um die Prinzipien von Interpretern und Compilern zu lernen. In Zukunft ist geplant, die Unterstützung für Grafik, Fensteroberflächen und erweiterte Funktionen hinzuzufügen.
+🌟 **Lucida** ist meine eigene Programmiersprache, die entwickelt wurde, um die Prinzipien von Interpretern und Compilern zu lernen. In Zukunft ist geplant, die Unterstützung für Grafik, Fensteroberflächen und erweiterte Funktionen hinzuzufügen.  
+
+## 🌍 Übersetzungen
+- 🇬🇧 [English](#english)
+- 🇩🇪 [Deutsch](#german)
+
+---
+
+## 🚀 Funktionen  
+✅ **Grundsyntax** – Variablen, Bedingungen, Schleifen  
+✅ **Textverarbeitung** – Eingabe und Ausgabe  
+✅ **Konfiguration über `config.json`**  
+🖥️ **Grafik** – Fenstererstellung, Textdarstellung (in Entwicklung)  
+📂 **Dateisystem** – Lesen und Schreiben von Dateien (geplant)  
+
+---
+
+## 🔧 Installation und Setup  
+
+### 📥 Installation  
+1. **Installiere Python** (falls noch nicht installiert) – [python.org](https://www.python.org/downloads/)  
+2. **Lade Lucida von GitHub herunter**:  
+3. **Lade das Projekt herunter**  
+4. **Wechsle in das Projektverzeichnis**:  
+5. **Installiere die Abhängigkeiten (falls vorhanden)**:  
+
+---
+
+## ▶ Erster Start von Lucida  
+1. **Führe die Hauptdatei aus**:  
+2. **Lucida erstellt einen Ordner in `Dokumente`**:  
+3. ## ⚙ Konfiguration von Lucida über `config.json`  
+Die Konfigurationsdatei befindet sich unter:  
+C:\Users\DEIN_BENUTZERNAME\Documents\LucidaCode\config\config.json  
+
+Beispiel `config.json`:  
+```json
+{
+    "theme": "dark",
+    "autoload_last_project": true,
+    "library_path": "C:/Users/DEIN_BENUTZERNAME/Documents/Lucida/libs"
+}
+
 
 ---
 
