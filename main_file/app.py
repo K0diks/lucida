@@ -1,10 +1,20 @@
 import tkinter as tk
+import threading
+import os
+import datetime
+from save import load_config, save_config, save_data, load_data
+from start import start
 
+# Эта функция будет вызываться при нажатии кнопки "Console"
 def open_console():
-    print("Консоль открыта!")
+    print("Запуск консоли...")
+    
+    # Импортируем main.py и вызываем main() в новом потоке, чтобы не блокировать GUI
+    import main
+    threading.Thread(target=main.main).start()
 
 def open_app():
-    print("Приложение открыто!")
+    print("Запуск приложения...")
 
 def create_window():
     # Создаем главное окно
@@ -24,3 +34,4 @@ def create_window():
 # Функция для запуска окна
 if __name__ == "__main__":
     create_window()
+
