@@ -107,64 +107,54 @@ Beispiel `config.json`:
 
 ## Русский
 <a id="russian"></a>
+# ✨ Lucida – Экспериментальный язык программирования  
+
+🌟 **Lucida** – это мой собственный язык программирования, созданный для изучения принципов работы интерпретаторов и компиляторов. В будущем планируется добавить поддержку графики, оконного интерфейса и расширенных возможностей.  
 
 ---
 
+## 🌍 Переводы  
+- 🇬🇧 [English](#english)
+- 🇩🇪 [Deutsch](#german)
+- 🇷🇺 [Русский](#russian)
 
+---
 
+## 🚀 Возможности  
+✅ **Базовый синтаксис** – переменные, условия, циклы  
+✅ **Работа с текстом** – ввод и вывод  
+✅ **Конфигурация через `config.json`**  
+🖥️ **Графика** – создание окон, отрисовка текста (в разработке)  
+📂 **Файловая система** – чтение и запись файлов (в планах)  
 
+---
 
+## 🔧 Установка и настройка  
 
+### 📥 Установка  
+1. **Установите Python** (если у вас его нет) – [python.org](https://www.python.org/downloads/)  
+2. **Скачайте Lucida** с GitHub:  
+3. **Скачайте проект**  
+4. **Перейдите в папку проекта**:  
+5. **Установите зависимости (если есть)**:  
 
+---
 
+## ▶ Первый запуск Lucida  
+1. **Запустите главный файл**:  
+2. **Lucida создаст папку в `Документах`**:  
+3. ## ⚙ Настройка Lucida через `config.json`  
+Файл конфигурации расположен по пути:  
+C:\Users\ВАШЕ_ИМЯ_ПОЛЬЗОВАТЕЛЯ\Documents\LucidaCode\config\config.json  
 
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucida</title>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        .language-buttons { margin-bottom: 20px; }
-        .language-buttons button { padding: 10px; margin-right: 10px; }
-    </style>
-</head>
-<body>
-
-    <div class="language-buttons">
-        <button onclick="changeLanguage('en')">🇬🇧 English</button>
-        <button onclick="changeLanguage('de')">🇩🇪 Deutsch</button>
-    </div>
-
-    <div id="content"></div>
-
-    <script>
-        const content = {
-            en: `
-                <h1>✨ Lucida – Experimental Programming Language</h1>
-                <p>🌟 <strong>Lucida</strong> is my own programming language created to learn the principles of interpreters and compilers. In the future, it is planned to add support for graphics, window interfaces, and advanced features.</p>
-            `,
-            de: `
-                <h1>✨ Lucida – Experimentelle Programmiersprache</h1>
-                <p>🌟 <strong>Lucida</strong> ist meine eigene Programmiersprache, die entwickelt wurde, um die Prinzipien von Interpretern und Compilern zu lernen. In Zukunft ist geplant, die Unterstützung für Grafik, Fensteroberflächen und erweiterte Funktionen hinzuzufügen.</p>
-            `
-        };
-
-        function changeLanguage(lang) {
-            document.getElementById('content').innerHTML = content[lang];
-        }
-
-        // Set default language
-        changeLanguage('en');
-    </script>
-
-</body>
-</html>
+Пример `config.json`:  
+```json
+{
+    "theme": "dark",
+    "autoload_last_project": true,
+    "library_path": "C:/Users/ВАШЕ_ИМЯ_ПОЛЬЗОВАТЕЛЯ/Documents/Lucida/libs"
+}
+```
+---
 
 
