@@ -2,7 +2,7 @@ import os
 import datetime
 from save import load_config, save_config, save_data, load_data
 from start import start
-import app
+from app import open_app
 
 username = os.getlogin()
 folder_path = f"C:\\Users\\{username}\\Documents\\LucidaCode\\config"
@@ -73,7 +73,8 @@ def main():
         elif com == "code exit()":
             print("Leaving.")
             break
+        elif com == "code app()":
+            open_app()
         else:
             print("Неизвестная команда. Введите code help() для списка команд.")
-
-app.create_window()
+main()
