@@ -1,0 +1,4 @@
+
+time(1) //Waiting 1 second
+print("Time is over") //Printing
+

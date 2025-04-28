@@ -1,0 +1,3 @@
+var hello = "It's works" //Creating variable
+print = hello //Writing
+
